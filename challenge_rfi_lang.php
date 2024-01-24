@@ -1,7 +1,7 @@
 <?php
 //RFI challenge
 // $dirPath contain path to directory whose files are to be listed 
-$files = scandir($dirPath);  
+$files = scandir(".");  
 foreach ($files as $file) {
     $filePath = $dirPath . '/' . $file;
     if (is_file($filePath)) {

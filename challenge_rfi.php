@@ -1,0 +1,4 @@
+<?
+//RFI challenge
+
+?>
